@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/intro3"
+        android:scaleType="fitXY" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/view" />
+
+    <ImageView
+        android:id="@+id/iv_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/world"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/button_world"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button_world"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="Worldwide"
+        android:background="@drawable/rounded"
+        android:textColor="@color/textWhite"
+        android:textStyle="bold"
+        android:textAppearance="@style/FontLatoRegular"
+        android:layout_above="@+id/view"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:id="@+id/iv_indo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/indo"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button_indo"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Indonesia"
+        android:background="@drawable/rounded"
+        android:textColor="@color/textWhite"
+        android:textStyle="bold"
+        android:textAppearance="@style/FontLatoRegular"
+        android:layout_below="@+id/iv_indo"
+        android:layout_centerHorizontal="true" />
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_mulai"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="65dp"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:background="@android:color/transparent"-->
+    <!--android:padding="16dp"-->
+    <!--android:textAppearance="@style/FontLatoRegular"-->
+    <!--android:textStyle="bold"-->
+    <!--android:textAllCaps="false"-->
+    <!--android:textSize="20sp"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_alignParentEnd="true" />-->
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e8e8e8</color>
+    <color name="colorPrimaryDark">#cecece</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textWhite">#FFFFFF</color>
+    <color name="textBlack">#000000</color>
+    <color name="colorBlue">#218ef7</color>
+
+
+    <!--Color in intro app-->
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen">#d4d8db</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen">#97a0a7</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen</item>
+        <item>@color/dot_light_screen</item>
+        <item>@color/dot_light_screen</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen</item>
+        <item>@color/dot_dark_screen</item>
+        <item>@color/dot_dark_screen</item>
+    </array>
+</resources>

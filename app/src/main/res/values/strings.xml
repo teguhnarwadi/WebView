@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Get Followers and Likes for IG</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_reload">Reload</string>
+    <string name="action_exit">Exit</string>
+    <string name="problem">Problem load data\n check internet connection\n\n Tap to reload</string>
+    <string name="loading">Loading...</string>
+    <string name="selanjutnya">Next Step</string>
+    <string name="mulai"><![CDATA[Masuk & Coba Layanan]]></string>
+    <string name="action_indo">Server Indonesia</string>
+    <string name="action_world">Server Worldwide</string>
+</resources>

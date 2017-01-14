@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.allsosmed.webview.MainActivity">
+    <item
+        android:id="@+id/action_world"
+        android:orderInCategory="100"
+        android:title="@string/action_world"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_indo"
+        android:orderInCategory="100"
+        android:title="@string/action_indo"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_reload"
+        android:icon="@drawable/ic_reload_white"
+        android:orderInCategory="100"
+        android:title="@string/action_reload"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_exit"
+        android:icon="@drawable/ic_exit_white"
+        android:orderInCategory="100"
+        android:title="@string/action_exit"
+        app:showAsAction="never" />
+</menu>
